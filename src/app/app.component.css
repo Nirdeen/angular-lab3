@@ -1,0 +1,20 @@
+.navbar{
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: #F4E2D8;
+    animation: gradient-move 15s linear infinite;
+}
+
+@keyframes gradient-move {
+    10%{background-color: #4d060c}
+    20%{background-color: rgb(247, 221, 185)}
+    40%{background-color: #19311f}
+    60%{background-color: #2c0650}
+    80%{background-color: #29301d}
+    90%{background-color: lightblue}
+}
+
+.form-control{
+    display: inline-block;
+}
